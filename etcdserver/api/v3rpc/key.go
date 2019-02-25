@@ -18,10 +18,10 @@ package v3rpc
 import (
 	"context"
 
-	"go.etcd.io/etcd/etcdserver"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/pkg/adt"
+	"github.com/ihippik/etcd/etcdserver"
+	"github.com/ihippik/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/ihippik/etcd/etcdserver/etcdserverpb"
+	"github.com/ihippik/etcd/pkg/adt"
 
 	"github.com/coreos/pkg/capnslog"
 )

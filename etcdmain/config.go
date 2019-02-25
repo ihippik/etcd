@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"go.etcd.io/etcd/embed"
-	"go.etcd.io/etcd/pkg/flags"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/version"
+	"github.com/ihippik/etcd/embed"
+	"github.com/ihippik/etcd/pkg/flags"
+	"github.com/ihippik/etcd/pkg/types"
+	"github.com/ihippik/etcd/version"
 
 	"github.com/ghodss/yaml"
 	"go.uber.org/zap"

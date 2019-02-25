@@ -25,10 +25,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.etcd.io/etcd/lease"
-	"go.etcd.io/etcd/mvcc/backend"
-	"go.etcd.io/etcd/mvcc/mvccpb"
-	"go.etcd.io/etcd/pkg/schedule"
+	"github.com/ihippik/etcd/lease"
+	"github.com/ihippik/etcd/mvcc/backend"
+	"github.com/ihippik/etcd/mvcc/mvccpb"
+	"github.com/ihippik/etcd/pkg/schedule"
 
 	"github.com/coreos/pkg/capnslog"
 	"go.uber.org/zap"

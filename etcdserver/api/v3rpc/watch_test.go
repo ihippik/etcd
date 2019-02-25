@@ -19,8 +19,8 @@ import (
 	"math"
 	"testing"
 
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/mvcc/mvccpb"
+	pb "github.com/ihippik/etcd/etcdserver/etcdserverpb"
+	"github.com/ihippik/etcd/mvcc/mvccpb"
 )
 
 func TestSendFragment(t *testing.T) {

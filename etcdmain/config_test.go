@@ -24,7 +24,7 @@ import (
 	"testing"
 
 	"github.com/ghodss/yaml"
-	"go.etcd.io/etcd/embed"
+	"github.com/ihippik/etcd/embed"
 )
 
 func TestConfigParsingMemberFlags(t *testing.T) {

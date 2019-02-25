@@ -24,9 +24,9 @@ import (
 	"syscall"
 	"time"
 
-	"go.etcd.io/etcd/pkg/expect"
-	"go.etcd.io/etcd/pkg/fileutil"
-	"go.etcd.io/etcd/pkg/flags"
+	"github.com/ihippik/etcd/pkg/expect"
+	"github.com/ihippik/etcd/pkg/fileutil"
+	"github.com/ihippik/etcd/pkg/flags"
 )
 
 const noOutputLineCount = 2 // cov-enabled binaries emit PASS and coverage count lines

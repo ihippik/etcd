@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/coreos/pkg/capnslog"
-	"go.etcd.io/etcd/pkg/types"
+	"github.com/ihippik/etcd/pkg/types"
 )
 
 var (

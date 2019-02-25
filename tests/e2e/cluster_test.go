@@ -21,7 +21,7 @@ import (
 	"os"
 	"strings"
 
-	"go.etcd.io/etcd/etcdserver"
+	"github.com/ihippik/etcd/etcdserver"
 )
 
 const etcdProcessBasePort = 20000

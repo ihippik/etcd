@@ -18,8 +18,8 @@ import (
 	"errors"
 	"time"
 
+	"github.com/ihippik/etcd/client"
 	"github.com/urfave/cli"
-	"go.etcd.io/etcd/client"
 )
 
 // NewUpdateDirCommand returns the CLI command for "updatedir".

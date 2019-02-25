@@ -17,10 +17,10 @@ package etcdserver
 import (
 	"sync"
 
-	"go.etcd.io/etcd/auth"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/lease"
-	"go.etcd.io/etcd/mvcc"
+	"github.com/ihippik/etcd/auth"
+	pb "github.com/ihippik/etcd/etcdserver/etcdserverpb"
+	"github.com/ihippik/etcd/lease"
+	"github.com/ihippik/etcd/mvcc"
 )
 
 type authApplierV3 struct {

@@ -26,10 +26,10 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/etcdserver"
-	"go.etcd.io/etcd/etcdserver/api/v2error"
-	"go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/pkg/types"
+	"github.com/ihippik/etcd/etcdserver"
+	"github.com/ihippik/etcd/etcdserver/api/v2error"
+	"github.com/ihippik/etcd/etcdserver/etcdserverpb"
+	"github.com/ihippik/etcd/pkg/types"
 
 	"github.com/coreos/pkg/capnslog"
 	"go.uber.org/zap"

@@ -27,7 +27,7 @@ To build a vendored `etcd` from the `master` branch via `go get`:
 $ echo $GOPATH
 /Users/example/go
 $ go get -v go.etcd.io/etcd
-$ go get -v go.etcd.io/etcd/etcdctl
+$ go get -v github.com/ihippik/etcd/etcdctl
 ```
 
 ## Test the installation

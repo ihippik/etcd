@@ -24,10 +24,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.etcd.io/etcd/auth/authpb"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/mvcc/backend"
+	"github.com/ihippik/etcd/auth/authpb"
+	"github.com/ihippik/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/ihippik/etcd/etcdserver/etcdserverpb"
+	"github.com/ihippik/etcd/mvcc/backend"
 
 	"github.com/coreos/pkg/capnslog"
 	"go.uber.org/zap"

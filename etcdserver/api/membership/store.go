@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"path"
 
-	"go.etcd.io/etcd/etcdserver/api/v2store"
-	"go.etcd.io/etcd/mvcc/backend"
-	"go.etcd.io/etcd/pkg/types"
+	"github.com/ihippik/etcd/etcdserver/api/v2store"
+	"github.com/ihippik/etcd/mvcc/backend"
+	"github.com/ihippik/etcd/pkg/types"
 
 	"github.com/coreos/go-semver/semver"
 )

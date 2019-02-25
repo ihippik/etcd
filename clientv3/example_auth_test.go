@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"log"
 
-	"go.etcd.io/etcd/clientv3"
+	"github.com/ihippik/etcd/clientv3"
 )
 
 func ExampleAuth() {

@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/pkg/testutil"
+	"github.com/ihippik/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/ihippik/etcd/etcdserver/etcdserverpb"
+	"github.com/ihippik/etcd/pkg/testutil"
 )
 
 func TestMoveLeader(t *testing.T)        { testMoveLeader(t, true) }

@@ -18,9 +18,9 @@ package v3alarm
 import (
 	"sync"
 
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/mvcc/backend"
-	"go.etcd.io/etcd/pkg/types"
+	pb "github.com/ihippik/etcd/etcdserver/etcdserverpb"
+	"github.com/ihippik/etcd/mvcc/backend"
+	"github.com/ihippik/etcd/pkg/types"
 
 	"github.com/coreos/pkg/capnslog"
 )

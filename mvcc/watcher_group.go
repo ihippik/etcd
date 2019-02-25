@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"math"
 
-	"go.etcd.io/etcd/mvcc/mvccpb"
-	"go.etcd.io/etcd/pkg/adt"
+	"github.com/ihippik/etcd/mvcc/mvccpb"
+	"github.com/ihippik/etcd/pkg/adt"
 )
 
 var (

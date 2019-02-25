@@ -20,10 +20,10 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/integration"
-	"go.etcd.io/etcd/pkg/testutil"
+	"github.com/ihippik/etcd/clientv3"
+	pb "github.com/ihippik/etcd/etcdserver/etcdserverpb"
+	"github.com/ihippik/etcd/integration"
+	"github.com/ihippik/etcd/pkg/testutil"
 
 	"google.golang.org/grpc"
 )

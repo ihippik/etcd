@@ -25,11 +25,11 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/etcdserver/api/snap/snappb"
-	pioutil "go.etcd.io/etcd/pkg/ioutil"
-	"go.etcd.io/etcd/pkg/pbutil"
-	"go.etcd.io/etcd/raft"
-	"go.etcd.io/etcd/raft/raftpb"
+	"github.com/ihippik/etcd/etcdserver/api/snap/snappb"
+	pioutil "github.com/ihippik/etcd/pkg/ioutil"
+	"github.com/ihippik/etcd/pkg/pbutil"
+	"github.com/ihippik/etcd/raft"
+	"github.com/ihippik/etcd/raft/raftpb"
 
 	"github.com/coreos/pkg/capnslog"
 	"go.uber.org/zap"

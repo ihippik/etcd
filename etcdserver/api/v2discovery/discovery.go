@@ -29,9 +29,9 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/client"
-	"go.etcd.io/etcd/pkg/transport"
-	"go.etcd.io/etcd/pkg/types"
+	"github.com/ihippik/etcd/client"
+	"github.com/ihippik/etcd/pkg/transport"
+	"github.com/ihippik/etcd/pkg/types"
 
 	"github.com/coreos/pkg/capnslog"
 	"github.com/jonboulle/clockwork"

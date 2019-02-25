@@ -18,8 +18,8 @@ import (
 	"context"
 	"fmt"
 
-	v3 "go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/mvcc/mvccpb"
+	v3 "github.com/ihippik/etcd/clientv3"
+	"github.com/ihippik/etcd/mvcc/mvccpb"
 )
 
 // PriorityQueue implements a multi-reader, multi-writer distributed queue.

@@ -19,11 +19,11 @@ import (
 	"fmt"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/mvcc"
-	"go.etcd.io/etcd/pkg/types"
+	"github.com/ihippik/etcd/clientv3"
+	"github.com/ihippik/etcd/etcdserver/api/v3rpc/rpctypes"
+	pb "github.com/ihippik/etcd/etcdserver/etcdserverpb"
+	"github.com/ihippik/etcd/mvcc"
+	"github.com/ihippik/etcd/pkg/types"
 
 	"go.uber.org/zap"
 )

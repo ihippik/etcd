@@ -19,9 +19,9 @@ import (
 	"reflect"
 	"testing"
 
-	"go.etcd.io/etcd/integration"
-	"go.etcd.io/etcd/pkg/testutil"
-	"go.etcd.io/etcd/pkg/types"
+	"github.com/ihippik/etcd/integration"
+	"github.com/ihippik/etcd/pkg/testutil"
+	"github.com/ihippik/etcd/pkg/types"
 )
 
 func TestMemberList(t *testing.T) {

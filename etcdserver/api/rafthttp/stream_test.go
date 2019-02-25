@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	stats "go.etcd.io/etcd/etcdserver/api/v2stats"
-	"go.etcd.io/etcd/pkg/testutil"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/version"
+	stats "github.com/ihippik/etcd/etcdserver/api/v2stats"
+	"github.com/ihippik/etcd/pkg/testutil"
+	"github.com/ihippik/etcd/pkg/types"
+	"github.com/ihippik/etcd/raft/raftpb"
+	"github.com/ihippik/etcd/version"
 
 	"github.com/coreos/go-semver/semver"
 	"go.uber.org/zap"
